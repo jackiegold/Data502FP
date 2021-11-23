@@ -75,7 +75,7 @@ classes = ('beaver', 'dolpin', 'otter', 'seal', 'whale',
 # Model
 print('==> Building model..')
 # net = VGG('VGG19')
-net = ResNet18(num_classes=100)
+net = ResNet18(num_class=100)
 # net = PreActResNet18()
 # net = GoogLeNet()
 # net = DenseNet121()
